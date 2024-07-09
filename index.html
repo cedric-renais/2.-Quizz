@@ -7,6 +7,131 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <h1>Quizz 💡</h1>
+    <div class="quiz-container">
+      <!-- Début du formulaire -->
+      <form class="quiz-form">
+        <!-- Question 1 -->
+        <div class="quiz-question">
+          <h3>Quel terme désigne l'expérience utilisateur ?</h3>
+          <div class="quiz-answer">
+            <input
+              type="radio"
+              name="question-1"
+              id="ergonomie"
+              value="a"
+              checked
+            />
+            <label for="ergonomie">Ergonomie</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-1" id="ux" value="b" />
+            <label for="ux">UX</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-1" id="Design" value="c" />
+            <label for="Design">Design</label>
+          </div>
+        </div>
+        <!-- Question 2 -->
+        <div class="quiz-question">
+          <h3>Quel logiciel est souvent utilisé pour créer des wireframes ?</h3>
+          <div class="quiz-answer">
+            <input
+              type="radio"
+              name="question-2"
+              id="figma"
+              value="a"
+              checked
+            />
+            <label for="figma">Figma</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-2" id="adobeXD" value="b" />
+            <label for="adobeXD">AdobeXD</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-2" id="excel" value="c" />
+            <label for="excel">Excel</label>
+          </div>
+        </div>
+        <!-- Question 3 -->
+        <div class="quiz-question">
+          <h3>Quel terme désigne la structure visuelle d'une interface ?</h3>
+          <div class="quiz-answer">
+            <input
+              type="radio"
+              name="question-3"
+              id="interaction"
+              value="a"
+              checked
+            />
+            <label for="interaction">Interaction</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-3" id="prototype" value="b" />
+            <label for="prototype">Prototype</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-3" id="layout" value="c" />
+            <label for="layout">Layout</label>
+          </div>
+        </div>
+        <!-- Question 4 -->
+        <div class="quiz-question">
+          <h3>A quoi sert le "Responsive Design" ?</h3>
+          <div class="quiz-answer">
+            <input
+              type="radio"
+              name="question-4"
+              id="adaptabilité"
+              value="a"
+              checked
+            />
+            <label for="adaptabilité">Adaptabilité</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-4" id="animation" value="b" />
+            <label for="animation">Animation</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-4" id="performance" value="c" />
+            <label for="performance">Performance</label>
+          </div>
+        </div>
+        <!-- Question 5 -->
+        <div class="quiz-question">
+          <h3>Qu'est-ce qu'une typographie ?</h3>
+          <div class="quiz-answer">
+            <input
+              type="radio"
+              name="question-5"
+              id="maquette"
+              value="a"
+              checked
+            />
+            <label for="maquette">Maquette</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-5" id="police" value="b" />
+            <label for="police">Police</label>
+          </div>
+          <div class="quiz-answer">
+            <input type="radio" name="question-5" id="couleur" value="c" />
+            <label for="couleur">Couleur</label>
+          </div>
+        </div>
+        <button type="submit">VALIDER ✔️</button>
+      </form>
+      <!-- Fin du formulaire -->
+      <div class="quiz-result">
+        <h2>
+          Clique sur <span>valider</span> pour voir les <span>résultats</span>
+          <p class="quiz-mark"></p>
+          <p class="quiz-help"></p>
+        </h2>
+      </div>
+    </div>
     <script src="script.js"></script>
   </body>
 </html>
