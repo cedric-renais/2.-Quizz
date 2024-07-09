@@ -72,6 +72,7 @@ form button {
   padding-block: 15px;
   padding-inline: 5px;
   font-size: 1.25rem;
+  color: #000;
   cursor: pointer;
   border: none;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
